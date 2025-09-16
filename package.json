@@ -8,9 +8,11 @@
     "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "echo \"No build step required for this project\"",
-    "docker:build": "docker build -t tubedude-proctoring .",
+    "docker:build": "docker build -t video-proctoring-system .",
     "docker:run": "docker-compose up -d",
-    "docker:stop": "docker-compose down"
+    "docker:stop": "docker-compose down",
+    "deploy:railway": "railway up",
+    "deploy:render": "echo 'Deploy to Render via GitHub integration'"
   },
   "keywords": [
     "proctoring",

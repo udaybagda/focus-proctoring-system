@@ -9,7 +9,7 @@
 A comprehensive real-time video proctoring system for online interviews that uses advanced AI detection algorithms to monitor candidate behavior, detect violations, and generate detailed integrity reports.
 
 ## 🌐 Live Demo
-🚀 **[Try the Live Application](https://rare-gentleness-production.up.railway.app)**
+🚀 **[Try the Live Application](https://your-app-name.railway.app)** *(Replace with your actual deployment URL)*
 
 📊 **Sample Reports**: Available in the `sample-reports/` directory
 - [Sample PDF Report](sample-reports/sample_proctoring_report.pdf)
@@ -63,8 +63,8 @@ A comprehensive real-time video proctoring system for online interviews that use
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/yourusername/tubedude-proctoring.git
-cd tubedude-proctoring
+git clone https://github.com/YOUR_USERNAME/video-proctoring-system.git
+cd video-proctoring-system
 ```
 
 ### 2. Install Dependencies
@@ -367,7 +367,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
+- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
 - Email: your.email@example.com
 - LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
 
