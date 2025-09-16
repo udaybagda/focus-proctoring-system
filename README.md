@@ -258,43 +258,6 @@ volumes:
   mongodb_data:
 ```
 
-## 🚀 Deployment Options
-
-### Option 1: Heroku
-```bash
-# Install Heroku CLI
-heroku create TuteDude-proctoring
-heroku addons:create mongolab:sandbox
-git push heroku main
-```
-
-### Option 2: Netlify (Frontend) + Railway (Backend)
-```bash
-# Deploy frontend to Netlify
-npm run build
-netlify deploy --prod --dir=public
-
-# Deploy backend to Railway
-railway login
-railway new
-railway up
-```
-
-### Option 3: DigitalOcean App Platform
-```yaml
-name: TuteDude-proctoring
-services:
-- name: web
-  source_dir: /
-  github:
-    repo: yourusername/TuteDude-proctoring
-    branch: main
-  run_command: npm start
-  environment_slug: node-js
-  instance_count: 1
-  instance_size_slug: basic-xxs
-```
-
 ## 🧪 Testing
 
 ### Run Tests
