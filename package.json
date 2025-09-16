@@ -1,7 +1,7 @@
 {
   "name": "video-proctoring-system",
   "version": "1.0.0",
-  "description": "AI-powered video proctoring system for online interviews",
+  "description": "AI-powered focus proctoringsystem for online interviews",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

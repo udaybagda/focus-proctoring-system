@@ -521,7 +521,7 @@ class VideoProctoringApp {
         
         return `
             <div class="report-header">
-                <h1>🎯 TubeDude - Video Proctoring Report</h1>
+                <h1>🎯 TuteDude - focus proctoringReport</h1>
                 <h2>Interview Session Analysis</h2>
                 <p><strong>Generated:</strong> ${new Date().toLocaleString()}</p>
             </div>
@@ -589,7 +589,7 @@ class VideoProctoringApp {
         const duration = sessionData.duration || 0;
         const durationStr = `${Math.floor(duration / 3600)}:${Math.floor((duration % 3600) / 60)}:${duration % 60}`;
         
-        let csv = 'TubeDude Video Proctoring Report\n\n';
+        let csv = 'TuteDude focus proctoringReport\n\n';
         csv += 'Session Information\n';
         csv += 'Field,Value\n';
         csv += `Session ID,${sessionData.sessionId}\n`;

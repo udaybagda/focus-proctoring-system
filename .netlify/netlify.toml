@@ -12,7 +12,7 @@ publish = "public"
 [functions."*"]
 
 [build]
-publish = "C:\\Users\\mishr\\Desktop\\video proctoring system\\public"
+publish = "C:\\Users\\mishr\\Desktop\\focus proctoringsystem\\public"
 publishOrigin = "config"
 commandOrigin = "config"
 command = "echo 'No build step required - static files ready'"

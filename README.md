@@ -1,4 +1,4 @@
-# 🎯 TubeDude - AI-Powered Video Proctoring System
+# 🎯 TuteDude - AI-Powered focus proctoringSystem
 
 [![Node.js](https://img.shields.io/badge/Node.js-18.x-green.svg)](https://nodejs.org/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-6.x-green.svg)](https://www.mongodb.com/)
@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Railway Deploy](https://img.shields.io/badge/Railway-Deployed-success.svg)](https://rare-gentleness-production.up.railway.app)
 
-A comprehensive real-time video proctoring system for online interviews that uses advanced AI detection algorithms to monitor candidate behavior, detect violations, and generate detailed integrity reports.
+A comprehensive real-time focus proctoringsystem for online interviews that uses advanced AI detection algorithms to monitor candidate behavior, detect violations, and generate detailed integrity reports.
 
 ## 🌐 Live Demo
 🚀 **[Try the Live Application](https://your-app-name.railway.app)** *(Replace with your actual deployment URL)*
@@ -63,8 +63,8 @@ A comprehensive real-time video proctoring system for online interviews that use
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/video-proctoring-system.git
-cd video-proctoring-system
+git clone https://github.com/udaybagda/focus-proctoring-system.git
+cd focus-proctoring-system
 ```
 
 ### 2. Install Dependencies
@@ -189,7 +189,7 @@ Final Score: Math.max(0, baseScore - totalDeductions)
 ## 🏗️ Project Structure
 
 ```
-tubedude-proctoring/
+TuteDude-proctoring/
 ├── 📁 public/                 # Frontend assets
 │   ├── 📄 index.html         # Main application page
 │   ├── 📄 app.js             # Frontend application logic
@@ -231,7 +231,7 @@ POST /api/upload/video       # Upload recorded video
 
 ### Build Docker Image
 ```bash
-docker build -t tubedude-proctoring .
+docker build -t TuteDude-proctoring .
 ```
 
 ### Run with Docker Compose
@@ -263,7 +263,7 @@ volumes:
 ### Option 1: Heroku
 ```bash
 # Install Heroku CLI
-heroku create tubedude-proctoring
+heroku create TuteDude-proctoring
 heroku addons:create mongolab:sandbox
 git push heroku main
 ```
@@ -282,12 +282,12 @@ railway up
 
 ### Option 3: DigitalOcean App Platform
 ```yaml
-name: tubedude-proctoring
+name: TuteDude-proctoring
 services:
 - name: web
   source_dir: /
   github:
-    repo: yourusername/tubedude-proctoring
+    repo: yourusername/TuteDude-proctoring
     branch: main
   run_command: npm start
   environment_slug: node-js
@@ -367,7 +367,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
+- GitHub: [@YOUR_USERNAME](https://github.com/udaybagda)
 - Email: your.email@example.com
 - LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
 
