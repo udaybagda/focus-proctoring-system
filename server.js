@@ -34,7 +34,7 @@ const inMemoryStorage = {
   events: new Map()
 };
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/video_proctoring', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/focus_proctoring', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }).then(() => {

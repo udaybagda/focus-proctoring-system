@@ -16,7 +16,7 @@ COPY . .
 # Create uploads directory
 RUN mkdir -p uploads/videos
 
-# Expose port
+# Expose Port
 EXPOSE 3000
 
 # Set environment variables

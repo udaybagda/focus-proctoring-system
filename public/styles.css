@@ -46,7 +46,7 @@ header p {
     display: none !important;
 }
 
-/* Setup Section */
+/* Setup section */
 .setup-form {
     max-width: 500px;
     margin: 0 auto;
@@ -171,7 +171,7 @@ header p {
     gap: 30px;
 }
 
-/* Video Container */
+/* Video container */
 .video-container {
     position: relative;
     background: #000;
@@ -342,7 +342,7 @@ header p {
     color: #333;
 }
 
-/* Events Log */
+/* Events Logs */
 .events-log h4 {
     margin-bottom: 15px;
     color: #333;

@@ -101,7 +101,7 @@ temp/
 dist/
 build/
 
-# Uploads (keep structure but ignore content)
+# Uploads 
 uploads/*.webm
 uploads/*.mp4
 uploads/*.avi

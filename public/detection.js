@@ -250,7 +250,7 @@ class DetectionSystem {
         
         try {
             // Simple detection: if video is playing and has content, assume face is present
-            // This is a fallback for demo purposes
+            // for demo purposes
             const hasVideoContent = video.currentTime > 0 && !video.paused && !video.ended && video.readyState >= 2;
             
             if (hasVideoContent) {
