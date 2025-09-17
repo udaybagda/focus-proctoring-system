@@ -9,7 +9,7 @@
 A comprehensive real-time focus proctoring system for online interviews that uses advanced AI detection algorithms to monitor candidate behavior, detect violations, and generate detailed integrity reports.
 
 ## 🌐 Live Demo
-🚀 **[Try the Live Application](https://your-app-name.railway.app)** **
+🚀 **[Try the Live Application](https://focus-proctoring-system-production.up.railway.app/)** **
 
 📊 **Sample Reports**: Available in the `sample-reports/` directory
 - [Sample PDF Report](sample-reports/sample_proctoring_report.pdf)
