@@ -326,7 +326,7 @@ npm run test:e2e
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Uday Bagda**
 - GitHub: [@uday_bagda](https://github.com/udaybagda)
 - Email: bagdauday2@gmail.com
 - LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/uday-bagda-aab924222/)

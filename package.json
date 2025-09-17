@@ -1,7 +1,7 @@
 {
   "name": "focus-proctoring-system",
   "version": "1.0.0",
-  "description": "AI-powered focus proctorin gsystem for online interviews",
+  "description": "AI-powered focus proctoring system for online interviews",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -21,7 +21,7 @@
     "interview",
     "monitoring"
   ],
-  "author": "",
+  "author": "Uday Bagda <bagdauday2@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
