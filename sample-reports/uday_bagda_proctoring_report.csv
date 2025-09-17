@@ -1,0 +1,4 @@
+Timestamp,Event Type,Severity,Details,Duration (s),Confidence
+2024-12-25T11:25:20Z,focus_lost,Warning,No keypoints detected for 22 seconds,22,85.0
+2024-12-25T11:25:29Z,unauthorized_item,High,Detected: cell phone (66%),3,66.0
+2024-12-25T11:25:43Z,focus_lost,Warning,No keypoints detected for 22 seconds,22,85.0
