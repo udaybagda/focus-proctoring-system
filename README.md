@@ -1,4 +1,4 @@
-# 🎯 TuteDude - AI-Powered focus proctoringSystem
+# 🎯 TuteDude - AI-Powered focus proctoring System
 
 [![Node.js](https://img.shields.io/badge/Node.js-18.x-green.svg)](https://nodejs.org/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-6.x-green.svg)](https://www.mongodb.com/)
@@ -6,10 +6,10 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Railway Deploy](https://img.shields.io/badge/Railway-Deployed-success.svg)](https://rare-gentleness-production.up.railway.app)
 
-A comprehensive real-time focus proctoringsystem for online interviews that uses advanced AI detection algorithms to monitor candidate behavior, detect violations, and generate detailed integrity reports.
+A comprehensive real-time focus proctoring system for online interviews that uses advanced AI detection algorithms to monitor candidate behavior, detect violations, and generate detailed integrity reports.
 
 ## 🌐 Live Demo
-🚀 **[Try the Live Application](https://your-app-name.railway.app)** *(Replace with your actual deployment URL)*
+🚀 **[Try the Live Application](https://your-app-name.railway.app)** **
 
 📊 **Sample Reports**: Available in the `sample-reports/` directory
 - [Sample PDF Report](sample-reports/sample_proctoring_report.pdf)
@@ -80,9 +80,9 @@ PORT=3000
 NODE_ENV=development
 
 # MongoDB Configuration
-MONGODB_URI=mongodb://localhost:27017/video_proctoring
+MONGODB_URI=mongodb://localhost:27017/focus_proctoring
 # OR for MongoDB Atlas:
-# MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/video_proctoring
+# MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/focus_proctoring
 
 # Session Configuration
 SESSION_SECRET=your_super_secret_key_here
@@ -189,7 +189,7 @@ Final Score: Math.max(0, baseScore - totalDeductions)
 ## 🏗️ Project Structure
 
 ```
-TuteDude-proctoring/
+focus-proctoring-system/
 ├── 📁 public/                 # Frontend assets
 │   ├── 📄 index.html         # Main application page
 │   ├── 📄 app.js             # Frontend application logic
@@ -243,7 +243,7 @@ services:
     ports:
       - "3000:3000"
     environment:
-      - MONGODB_URI=mongodb://mongo:27017/video_proctoring
+      - MONGODB_URI=mongodb://mongo:27017/focus
     depends_on:
       - mongo
   
@@ -323,16 +323,13 @@ npm run test:e2e
 4. Push to branch (`git push origin feature/amazing-feature`)
 5. Open Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@YOUR_USERNAME](https://github.com/udaybagda)
-- Email: your.email@example.com
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
+- GitHub: [@uday_bagda](https://github.com/udaybagda)
+- Email: bagdauday2@gmail.com
+- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/uday-bagda-aab924222/)
 
 ## 🙏 Acknowledgments
 

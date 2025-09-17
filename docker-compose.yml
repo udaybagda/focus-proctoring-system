@@ -7,7 +7,7 @@ services:
       - "3000:3000"
     environment:
       - NODE_ENV=production
-      - MONGODB_URI=mongodb://mongo:27017/video_proctoring
+      - MONGODB_URI=mongodb://mongo:27017/focus_proctoring
       - SESSION_SECRET=your_super_secret_key_here
       - PORT=3000
     depends_on:
@@ -25,7 +25,7 @@ services:
       - ./mongo-init:/docker-entrypoint-initdb.d
     restart: unless-stopped
     environment:
-      - MONGO_INITDB_DATABASE=video_proctoring
+      - MONGO_INITDB_DATABASE=focus_proctoring
 
 volumes:
   mongodb_data:
